@@ -1,0 +1,523 @@
+@font-face {
+  font-family: "NextArtBold";
+  src: url(../fonts/Nextartbold.woff)
+}
+
+@font-face {
+  font-family: "NextArtNormal";
+  src: url(../fonts/Nextartsemibold.woff)
+}
+
+@font-face {
+  font-family: "ArodoraPro";
+  src: url(../fonts/ArodoraPro-Light.otf)
+}
+
+@font-face {
+  font-family: "NikoMoji";
+  src: url(../fonts/NicoMoji-Regular.ttf)
+}
+
+@font-face {
+  font-family: "NextArtLight";
+  src: url(../fonts/NEXT_ART_Light.ttf)
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+.title {
+  font-family: "NextArtLight", sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 54px;
+  color: #e4e4e4;
+  text-align: center;
+}
+
+.header {
+  background-color: #202020
+}
+
+.header__inner {
+  padding-top: 26px;
+  min-height: 100vh;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.burger {
+  display: none;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.logo__text {
+  font-family: "NikoMoji", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-left: 20px
+}
+
+.menu {
+  margin-left: 220px;
+  width: 100%
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.menu__item {
+  border-bottom: 1px solid transparent;
+  padding-bottom: 5px
+}
+
+.menu__item:hover {
+  border-bottom: 1px solid #e2a300
+}
+
+.menu__link {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #e4e4e4
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.content__text-hello {
+  display: block;
+  font-family: "NextArtNOrmal", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #e4e4e4;
+  text-transform: uppercase
+}
+
+.content__text-name {
+  font-family: "NextArtBold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  margin-bottom: 27px
+}
+
+.content__text-description {
+  max-width: 450px;
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #e4e4e4;
+  margin-bottom: 27px;
+  width: 100%;
+}
+
+.content__text-btn {
+  width: 200px;
+  height: 50px;
+  background-color: #e2a300;
+  border-radius: 6px;
+  border: none;
+  font-family: "NextArtBold", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #000;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center
+}
+
+.content__photo2-img {
+  display: none;
+}
+
+.skills {
+  background-color: #2c2c2c;
+  padding-top: 50px;
+}
+
+.skills__inner {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 113px;
+  padding-bottom: 150px
+}
+
+.skills__text-title {
+  text-align: center;
+}
+
+.skills__item {
+  width: 270px;
+  height: 270px;
+  background-color: #2a2a2a;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.skills__item-icon {
+  text-align: center;
+  width: 150px;
+  height: 75px;
+  fill: #00c4f0
+}
+
+.skills__item-text {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #e4e4e4
+}
+
+.about-me {
+  background-color: #2c2c2c
+}
+
+.about-me__inner {
+  padding-bottom: 115px;
+  position: relative
+}
+
+.about-me__text {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.about-me__text-title {
+  margin-bottom: 20px;
+}
+
+.about-me__text-description {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: .01em;
+  color: #fff;
+  background-color: #2a2a2a;
+  z-index: 5;
+  padding: 80px 65px;
+  border-radius: 15px;
+}
+
+.about-me__text-description-title {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 21px;
+  color: #E2A100;
+  margin-bottom: 20px;
+}
+
+.about-me__work-experience,
+.about-me__education,
+.about-me__hobbies {
+  margin-bottom: 40px;
+}
+
+.about-me__item {
+  margin-bottom: 15px;
+}
+
+.portfolio {
+  background-color: #202020
+}
+
+.portfolio__inner {
+  padding-top: 100px;
+  padding-bottom: 150px
+}
+
+.portfolio__title {
+  text-align: center;
+  margin-bottom: 50px
+}
+
+.portfolio__items {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  background-color: #2d2d2d;
+  border-radius: 30px
+}
+
+.portfolio__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.portfolio__item .portfolio__item-img {
+  border-radius: 25px;
+  border: 1px solid #2d2d2d
+}
+
+.portfolio__item .portfolio__item-text {
+  width: 295px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+
+.portfolio__item-text-title {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.portfolio__item-text-description {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.portfolio__item-text-link {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #E2A100;
+}
+
+.footer {
+  background-color: #414141
+}
+
+.footer__inner {
+  padding: 50px 20px 30px 20px;
+  max-width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.footer__menu-item {
+  list-style: none;
+}
+
+.footer__menu-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e4e4e4;
+}
+
+.footer__contact-item {
+  margin-bottom: 18px;
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e4e4e4
+}
+
+.footer__contact-item-link {
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e4e4e4
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+
+.footer__logo .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.footer__logo .logo__text {
+  font-family: "NikoMoji", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+  margin-left: 20px
+}
+
+.footer__logo-copyright {
+  margin-bottom: 18px;
+  font-family: "ArodoraPro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #e4e4e4
+}
+
