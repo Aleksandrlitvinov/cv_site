@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+<header class="header" id="home">
+	<div class="container">
+		<div class="header__inner">
+			<div class="header__top">
+				<a class="logo" href="#">
+					<img class="logo__img" src="images/logo.png" alt="logo">
+					<p class="logo__text">Александр</p>
+				</a>
+				<nav class="menu">
+					<div class="burger">
+						<span class="burger-icon"></span>
+					</div>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#home" class="menu__link">Главная</a>
+						</li>
+						<li class="menu__item">
+							<a href="#skills" class="menu__link">Навыки</a>
+						</li>
+						<li class="menu__item">
+							<a href="#about" class="menu__link">Обо мне</a>
+						</li>
+						<li class="menu__item">
+							<a href="#portfolio" class="menu__link">Мои проекты</a>
+						</li>
+						<li class="menu__item">
+							<a href="#contacts" class="menu__link">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__content">
+				<div class="content__text">
+					<p class="content__text-hello">Привет,</p>
+					<h1 class="content__text-name">
+						Я Александр Литвинов
+					</h1>
+					<p class="content__text-description">
+						Я начинающий фронтенд разработчик с хорошими знаниями html, css и
+						базовыми знаниями javascript.
+					</p>
+					<a class="content__text-btn" href="#">Связаться</a>
+				</div>
+				<div class="content__photo">
+					<img class="content__photo-img" src="images/avatar1.png" alt="avatar">
+					<img class="content__photo2-img" src="images/avatar2.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</header>
+<section class="skills" id="skills">
+	<div class="container">
+		<h2 class="skills__text-title title">Навыки</h2>
+		<div class="skills__inner">
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#html"></use>
+				</svg>
+				<p class="skills__item-text">html5</p>
+				<div class="progress-bar1"></div>
+			</div>
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#css"></use>
+				</svg>
+				<p class="skills__item-text">css3</p>
+				<div class="progress-bar2"></div>
+			</div>
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#sass"></use>
+				</svg>
+				<p class="skills__item-text">sass</p>
+				<div class="progress-bar3"></div>
+			</div>
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#js"></use>
+				</svg>
+				<p class="skills__item-text">javascript</p>
+				<div class="progress-bar4"></div>
+			</div>
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#nodejs"></use>
+				</svg>
+				<p class="skills__item-text">node.js</p>
+				<div class="progress-bar5"></div>
+			</div>
+			<div class="skills__item">
+				<svg class="skills__item-icon">
+					<use xlink:href="images/sprite.svg#git"></use>
+				</svg>
+				<p class="skills__item-text">git</p>
+				<div class="progress-bar6"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="about-me" id="about">
+	<div class="about-me__inner">
+		<div class="about-me__text">
+			<!--			<img class="about-me__ellipse ellipse1" src="images/circle1.png" alt="ellipse">-->
+			<!--			<img class="about-me__ellipse ellipse2" src="images/circle2.png" alt="ellipse">-->
+			<!--			<img class="about-me__ellipse ellipse3" src="images/circle3.png" alt="ellipse">-->
+			<h2 class="about-me__text-title title">О себе</h2>
+			<div class="about-me__text-description">
+				<h5 class="about-me__text-description-title">Опыт работы</h5>
+				<ul class="about-me__work-experience">
+					<li class="about-me__item">2010-2012 --> Региональный менеджер по оптовым продажам</li>
+					<li class="about-me__item">2012-2021 --> Частный Предприниматель. Вид деятельности - торговля не
+						продовольственными товарами
+					</li>
+				</ul>
+				<h5 class="about-me__text-description-title">Образование</h5>
+				<ul>
+					<li class="about-me__item">05.2021 - 09.2021 --> Beetroot Academy | базовый курс Фронтенд</li>
+					<li class="about-me__item">2005-2010 --> Донецкий Национальный Технический Университет | Специальность
+						"Бурение скважин"
+					</li>
+					<li class="about-me__item">2006-2010 --> Донецкий Институт Предпринимательства | Специальность "Финансы"</li>
+				</ul>
+				<h5 class="about-me__text-description-title">Хобби</h5>
+				<p class="about-me__hobbies">
+				<ul>
+					<li class="about-me__item">Футбол</li>
+					<li class="about-me__item">Настольный теннис</li>
+					<li class="about-me__item">Бильярд</li>
+					<li class="about-me__item">Рыбалка</li>
+				</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="portfolio" id="portfolio">
+	<div class="container">
+		<div class="portfolio__inner">
+			<h2 class="portfolio__title title">Мои Проекты</h2>
+			<div class="portfolio__items">
+				<div class="portfolio__item">
+					<div>
+						<img class="portfolio__item-img" src="images/site1.jpg" alt="img">
+					</div>
+					<div class="portfolio__item-text">
+						<p class="portfolio__item-text-title">Simple Landing site</p>
+						<p class="portfolio__item-text-description">[ HTML / CSS ]</p>
+						<a class="portfolio__item-text-link" target="_blank"
+							 href="https://suspicious-albattani-e10b66.netlify.app">More
+							<span>&#8594;</span></a>
+					</div>
+				</div>
+				<div class="portfolio__item">
+					<div>
+						<img class="portfolio__item-img" src="images/site2.jpg" alt="img">
+					</div>
+					<div class="portfolio__item-text">
+						<p class="portfolio__item-text-title">The game Mortal Kombat</p>
+						<p class="portfolio__item-text-description">[ HTML / CSS / JS ]</p>
+						<a class="portfolio__item-text-link" target="_blank"
+							 href="https://trusting-bell-696c58.netlify.app">More <span>&#8594;</span></a>
+					</div>
+				</div>
+				<div class="portfolio__item">
+					<div>
+						<img class="portfolio__item-img" src="images/site3.jpg" alt="img">
+					</div>
+					<div class="portfolio__item-text">
+						<p class="portfolio__item-text-title">Kanban Board</p>
+						<p class="portfolio__item-text-description">[ HTML / CSS / JS / VUE ]</p>
+						<a class="portfolio__item-text-link" target="_blank"
+							 href="https://affectionate-benz-ea5c33.netlify.app">More
+							<span>&#8594;</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer" id="contacts">
+	<div class="footer__inner">
+		<div class="footer__menu">
+			<ul class="footer__menu-list">
+				<li class="footer__menu-item">
+					<a href="#home" class="footer__menu-link">Главная</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="#skills" class="footer__menu-link">Навыки</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="#about" class="footer__menu-link">Обо мне</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="#portfolio" class="footer__menu-link">Портфолио</a>
+				</li>
+				<li class="footer__menu-item">
+					<a href="#contacts" class="footer__menu-link">Контакты</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer__contact">
+			<p class="footer__contact-item">site: <a class="footer__contact-item-link" target="_blank"
+																							 href="https://github.com/Aleksandrlitvinov">github</a></p>
+			<p class="footer__contact-item">Email : Litvinov87@gmail.com</p>
+			<p class="footer__contact-item">Inst : @litvin25</p>
+			<p class="footer__contact-item">Tel : +38(999)-999-99-99</p>
+		</div>
+		<div class="footer__logo">
+			<a class="logo" href="#">
+				<img class="logo__img" src="images/logo.png" alt="logo">
+				<p class="logo__text">Александр</p>
+			</a>
+			<p class="footer__logo-copyright">Copyright © 2021, Notitanic</p>
+		</div>
+	</div>
+
+</footer>
+
+
+<script src="js/progressBar.js" type="module"></script>
+<script src="js/index.js" type="module"></script>
+</body>
+
+</html>
